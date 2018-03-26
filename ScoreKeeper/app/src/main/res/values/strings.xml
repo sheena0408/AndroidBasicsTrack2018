@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="tA">Team a</string>
+    <string name="tB">Team b</string>
+    <string name="td">+6 Points</string>
+    <string name="fg">+3 Points</string>
+    <string name="con">+2 Points</string>
+    <string name="ext">+1 Point</string>
+    <string name="Rst">reset</string>
+    <string name="Comp">Winner</string>
+</resources>

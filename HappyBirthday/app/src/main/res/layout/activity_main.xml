@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:src="@drawable/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday!"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:background="#fff"
+        android:alpha="0.8"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from sheena"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:background="#fff"
+        android:alpha="0.8"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+
+
+
+</RelativeLayout>
